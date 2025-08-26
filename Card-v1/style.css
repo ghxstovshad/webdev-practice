@@ -1,0 +1,41 @@
+.card{
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(223, 219, 219);
+    /* text-align: ; */
+}
+
+.card img{
+    width: 76px;
+}
+
+.card > h2{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.card > button{
+    display: block;
+    width: 100%;
+    background-color: rgb(8, 103, 103);
+    color: #fff;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.card >button:hover{
+    background-color: rgb(97, 121, 121);
+    font-size: 1.4rem;
+}
+
+.card > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: #000;
+}
