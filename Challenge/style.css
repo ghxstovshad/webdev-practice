@@ -117,3 +117,66 @@
 }
 
 
+.profile-card {
+    border: 2px solid red;
+    display: block;
+    width: 300px;
+    margin: auto;
+    /* position: absolute; */
+}
+
+.profile-card > img {
+    width: 200px;
+    /* border: 2px solid gray; */
+}
+
+.main-card {
+    display: block;
+    margin-top: -30px;
+    padding: 0 12px;
+}
+
+.main-card > h2 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.main-card p.btn{
+    display: inline-block;
+    background: rgb(112, 112, 248);
+    color: #fff;
+    padding: 2px;
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-card .follow {
+    position: relative;
+    left: 90px;
+    background: rgb(112, 112, 248);
+    color: #fff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-card .follow:hover {
+    background: blue;
+    outline: 1px solid red;
+}
+
+.profile-card .bio{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px;
+}
+
