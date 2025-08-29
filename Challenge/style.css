@@ -1,0 +1,119 @@
+.navbar {
+    background: greenyellow;
+    padding: 10px 15px;
+}
+
+.title {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    padding: 4px 7px;
+}
+
+.link {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.navbar a.btn{
+    display: inline-block;
+    /* margin-left: 20px; */
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 4px 8px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navbar a.btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+.card-container{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    /* The Border box i use because i like to see the square or box shapes all elements have,
+     helps me also understand what next to do with an element */
+}
+
+
+
+.card-box {
+    display: inline-block;
+    border: 2px solid red;
+    width: 200px;
+    margin: 10px;
+    padding: 10px 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.card-box > h2 {
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-box > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.card-box > a.btn {
+    background: rgb(10, 17, 1);
+    padding: 5px 7px;
+    border: 2px solid red;
+    text-decoration: none;
+    margin-bottom: 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-box > a.btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+.box-two {
+    height: 183px;
+}
+
+.box-model {
+    display: block;
+    text-align: center;
+    margin: 100px;
+}
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-uno {
+    background: lightblue;
+}
+
+.box-dos {
+    background: lightcoral;
+}
+
+.box-tres {
+    background: rgb(247, 247, 166)
+}
+
+
