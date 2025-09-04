@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: block;
+    background: rgb(15, 16, 15);
+    padding: 15px 15px;
+    /* margin: 10px; */
+}
+
+.title {
+    position: relative;
+}
+
+.title .logo {
+    font-size: 20px;
+    color: rgb(245, 241, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+.title .link {
+    display: inline-block;
+    float: right;
+    margin: 0 20px;
+}
+
+.title a.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background: blueviolet;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.title a.link:hover {
+    background: #fff;
+    color: blueviolet;
+}
+
+.hero-container{
+    display: block;
+    text-align: center;
+    margin: 100px auto;
+    padding: 60px;
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid red;  */
+}
+
+.hero-container > h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    margin: 10px;
+}
+
+.hero-container > p {
+    font-family: cursive sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.hero-container .hire {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 10px;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-container .hire:hover {
+    background: blueviolet;
+}
+
+.feature-card {
+    display: block;
+    /* border: 2px solid red; */
+    max-width: 1100px;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.feature-row {
+    display: inline-block;
+    border: 2px solid blueviolet;
+    margin: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+
+.feature-row > img {
+    width: 150px; 
+}
+
+.feature-row > p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    margin: 10px;
+    margin-bottom: 19px;
+}
+
+.feature-row .learn-more{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 7px 6px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.feature-row .learn-more:hover{
+    background: blueviolet;
+    font-size: 20px;
+}
