@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #483d8b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(26, 255, 0);
+}
+
+.mid-con a {
+    margin: 10px;
+    color: rgb(26, 255, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.right-con button {
+    padding: 3px 5px;
+    background: rgb(26, 255, 0);
+    border-radius: 5px;
+    border: none;
+}
+
+.right-con button a{
+    text-decoration: none;
+    color: #483d8b;
+    font-size: 14px;
+}
+
+.right-con button:hover {
+    background-color: aliceblue;
+    color: #483d8b;
+}
+
+.hero-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+ }
+
+ .hero {
+    text-align: center;  
+ }
+
+ .hero img {
+    width: 150px;
+ }
+
+ .hero h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+ }
+
+ button.btn{
+    padding: 4px 7px;
+    background-color: rgb(26, 255, 0);
+    color: #483d8b;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ button.btn:hover {
+    background: #483d8b;
+    color: rgb(26, 255, 0);
+ }
+
+ .price-con {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .price-card {
+    border: 3px solid #483d8b;
+    border-radius: 15px;
+    height: 400px;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(19, 65, 14);
+ }
+
+ .price-plan {
+    text-align: center;
+    background-color: #483d8b;
+    border-radius: 3px;
+    margin-bottom: 10px;
+ }
+
+ .price-card > h1 {
+    font-family: cursive sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: aliceblue;
+ }
+
+ .mid-plan {
+    height: 450px;
+ }
+
+ .EE {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+ }
+
+ul {
+    list-style: none;
+    padding: 20px;
+    display: block;
+    
+}
+
+li {
+    padding: 6px;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.price-btn {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.price-btn > a {
+    text-decoration: none;
+    color: #483d8b;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
